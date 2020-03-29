@@ -6,7 +6,7 @@ html, body{
 
 @font-face {
     font-family: Panorama;
-    src: url('Panorama-Ragular_040618.otf');
+    src: url('Panorama-regular.otf');
 }
 
 h1{
@@ -15,9 +15,9 @@ h1{
 }
 
 div.grad{
-    margin-left: 50%;
-    height: 150px;
-    width: 150px;
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
     color: #000;
     background: radial-gradient(green,yellow,blue);
     background: -webkit-radial-gradient(green,yellow,blue);
