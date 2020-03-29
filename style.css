@@ -1,0 +1,28 @@
+html, body{
+    height: 100%;
+    margin: -10px;
+    background: -webkit-radial-gradient(black,purple,black);
+}
+
+@font-face {
+    font-family: Panorama;
+    src: url('Panorama-Ragular_040618.otf');
+}
+
+h1{
+    font-family: Panorama;
+    text-align: center;
+}
+
+div.grad{
+    margin-left: 50%;
+    height: 150px;
+    width: 150px;
+    color: #000;
+    background: radial-gradient(green,yellow,blue);
+    background: -webkit-radial-gradient(green,yellow,blue);
+}
+
+span.line-through{
+    text-decoration: line-through;
+}
